@@ -27,8 +27,10 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background: url("../images/background-money.jpg");
+  font-family:  sans-serif;
 }
+
 
 body {
   display: -ms-flexbox;
@@ -52,6 +54,52 @@ body {
 
 .masthead-brand {
   margin-bottom: 0;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  text-decoration: underline;
+  text-shadow: 2px 2px green;
+}
+
+.inner{
+  display:flex;
+  justify-content: space-between;
+  width: 50em;
+}
+
+.resultParas {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.guesses {
+    background-color: orange;
+}
+
+.guessField {
+  width: 130px;
+  margin: auto;
+  text-align: center;
+}
+
+.form-group {
+    text-transform: uppercase;
+}
+
+.inner-cover{
+  max-width: 42em;
+  text-align: center;
+  margin:auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  text-shadow: 2px 2px green;
+}
+
+.nav-masthead {
+  position: absolute;
+  right: 100px;
+  top: 10px;
 }
 
 .nav-masthead .nav-link {
@@ -97,10 +145,18 @@ body {
   font-weight: 700;
 }
 
+.cover-heading{
+  font-weight: bolder;
+}
+
 
 /*
  * Footer
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+}
+
+.inner-foot{
+  text-align: center;
 }
